@@ -1,0 +1,92 @@
+{
+  "bounds": [
+    53.5,
+    0,
+    32.5,
+    -18.5,
+    -29,
+    -32,
+    -29.5,
+    -8,
+    -43.5,
+    -0,
+    -43.5,
+    0,
+    -29.5,
+    8,
+    -29,
+    32,
+    32.5,
+    18.5,
+    53.5,
+    -0
+  ],
+  "builtInWings": [],
+  "center": [
+    50,
+    56
+  ],
+  "collisionRadius": 62.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 59,
+      "location": [
+        -45.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 50.5,
+      "location": [
+        -29,
+        18
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 50.5,
+      "location": [
+        -29,
+        -18
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    }
+  ],
+  "height": 120,
+  "hullId": "deus_sledgehammer",
+  "hullName": "Ludd's Sledgehammer",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -1,
+    0.5
+  ],
+  "shieldRadius": 55.5,
+  "spriteName": "graphics/ships/sledgehammer2.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -20,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 100
+}
