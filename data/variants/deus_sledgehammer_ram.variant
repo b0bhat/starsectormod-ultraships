@@ -1,0 +1,19 @@
+{
+  "displayName": "",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "deus_sledgehammer_ram",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "deus_sledgehammer_ram",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

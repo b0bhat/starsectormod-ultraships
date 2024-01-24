@@ -1,0 +1,34 @@
+{
+  "bounds": [
+    0,
+    -15,
+    20,
+    -0,
+    0,
+    15
+  ],
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "builtInWings": [],
+  "center": [
+    50,
+    56
+  ],
+  "collisionRadius": 22,
+  "engineSlots": [],
+  "height": 120,
+  "hullId": "deus_sledgehammer_ram",
+  "hullName": "Ludd's Tip",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 20,
+  "spriteName": "graphics/ships/sledgehammer_ram.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 100
+}

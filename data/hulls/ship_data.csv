@@ -5,8 +5,10 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Kite,kite,Shuttle,Low Tech,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,base_bp,,0.75,2,2,217
 #Parallax,defo_parallax,Heavy Frigate,Fabrique Orbitale,entropyamplifier,6,1600,60,4600,8000,400,40,,220,80,60,30,45,300,FRONT,,360,0.3,0.5,,,10,15,80,80,0.5,160,11,50000,3,25,360,0.25,8,12,,"rare_bp, scavengers, tritachyon",,0.7,4,6,310.4
-Ludd's Sledgehammer,deus_sledgehammer,Ram Frigate,Luddic path,deus_rotational_mass_condenser,8,2500,800,800,8000,120,15,,150,100,20,50,50,16000,NONE,,,,,,,25,30,10,80,4,20,15,60000,5,20,90,0.25,8,15,,,,0.8,2,2,311.1
-Cayenne,deus_cayenne,Elite Fighter,High Tech,acausaldisruptor,6,2000,600,3000,8000,300,25,,250,550,120,100,60,1000,OMNI,,100,0.4,0.7,,,5,5,5,20,1,20,12,80000,5,25,180,0.25,6,12,,,,0.9,4,6,311.2
+Cayenne,deus_cayenne,Elite Fighter,High Tech,acausaldisruptor,6,3000,450,3000,0,300,25,,250,550,120,100,60,1000,OMNI,,100,0.4,0.7,,,5,5,5,20,1,20,12,80000,5,25,180,0.25,6,12,,,,0.9,4,6,488.1
+Ludd's Sledgehammer,deus_sledgehammer,Ram Frigate,Luddic Path,deus_rotational_mass_condenser,8,2500,600,800,0,120,15,,150,100,20,50,50,500,NONE,,,,,,,25,30,10,80,4,20,15,60000,5,20,90,0.25,8,15,,,,0.8,2,2,488.2
+,deus_sledgehammer_ram,Ram,Luddic Path,,1,4000,1000,0,0,0,0,,0,0,0,0,0,15000,NONE,,,,,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,1,2,488.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Syzygy,defo_syzygy,Light Frigate,Fabrique Orbitale,maneuveringjets,4,1200,50,2500,8000,150,42,,180,150,80,45,85,120,FRONT,,360,0.3,0.5,,,5,15,50,60,0.5,120,11,25000,4,20,320,0.25,6,6,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.1
 #Syzygy EWS,defo_syzygyews,Light Frigate,Fabrique Orbitale,acausaldisruptor,4,1200,50,2000,8000,120,15,1,180,150,80,45,85,120,FRONT,,360,0.3,0.5,,,5,15,20,50,0.5,100,11,32000,3,25,320,0.25,6,6,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.1
 #Syzygy CAS,defo_syzygycas,CAS Frigate,Fabrique Orbitale,maneuveringjets,4,900,30,500,8000,100,15,1,120,80,50,25,50,150,OMNI,,240,0.6,0.7,,,10,100,10,50,0.5,100,11,28000,4,20,120,0.25,4,12,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.2

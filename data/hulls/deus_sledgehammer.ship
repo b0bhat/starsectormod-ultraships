@@ -1,25 +1,21 @@
 {
   "bounds": [
-    53.5,
-    0,
     32.5,
     -18.5,
     -29,
     -32,
-    -29.5,
-    -8,
+    -30,
+    -10.5,
     -43.5,
     -0,
     -43.5,
     0,
-    -29.5,
-    8,
+    -30,
+    10.5,
     -29,
     32,
     32.5,
-    18.5,
-    53.5,
-    -0
+    18.5
   ],
   "builtInWeapons": {
     "WS0003": "deus_ram_laser"
@@ -33,7 +29,7 @@
   "engineSlots": [
     {
       "angle": 180,
-      "contrailSize": 20,
+      "contrailSize": 128,
       "length": 59,
       "location": [
         -45.5,
@@ -74,7 +70,7 @@
     0.5
   ],
   "shieldRadius": 55.5,
-  "spriteName": "graphics/ships/sledgehammer2.png",
+  "spriteName": "graphics/ships/sledgehammer_base.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [
@@ -101,6 +97,18 @@
       "mount": "HARDPOINT",
       "size": "SMALL",
       "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "STATION_MODULE"
     }
   ],
   "width": 100

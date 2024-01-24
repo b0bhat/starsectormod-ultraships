@@ -21,10 +21,10 @@
     "eccm"
   ],
   "builtInWeapons": {
-    "WS0001": "gorgonpod",
+    "WS0001": "typhoon",
     "WS0002": "typhoon",
-    "WS0003": "minipulser",
-    "WS0004": "minipulser"
+    "WS0003": "deus_rapid_bolter",
+    "WS0004": "deus_rapid_bolter"
   },
   "builtInWings": [],
   "center": [

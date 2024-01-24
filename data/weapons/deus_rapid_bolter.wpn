@@ -1,0 +1,42 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "LINKED",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "",
+  "id": "deus_rapid_bolter",
+  "projectileSpecId": "deus_rapid_bolter_shot",
+  "turretSprite": "",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ]
+  },
+  "autocharge": true,
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "fireSoundTwo": "autopulse_laser_fire_01"
+}
