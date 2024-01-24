@@ -21,6 +21,9 @@
     53.5,
     -0
   ],
+  "builtInWeapons": {
+    "WS0003": "deus_ram_laser"
+  },
   "builtInWings": [],
   "center": [
     50,
@@ -86,6 +89,18 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
     }
   ],
   "width": 100

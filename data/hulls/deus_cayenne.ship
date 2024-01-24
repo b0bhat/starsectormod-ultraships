@@ -1,0 +1,133 @@
+{
+  "bounds": [
+    -35.5,
+    -19,
+    -16.5,
+    -37,
+    10,
+    -12.5,
+    38,
+    -6,
+    38,
+    6,
+    10,
+    12.5,
+    -16.5,
+    37,
+    -35.5,
+    19
+  ],
+  "builtInMods": [
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "gorgonpod",
+    "WS0002": "typhoon",
+    "WS0003": "minipulser",
+    "WS0004": "minipulser"
+  },
+  "builtInWings": [],
+  "center": [
+    50,
+    56.5
+  ],
+  "collisionRadius": 54.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 15.5,
+      "location": [
+        -37.5,
+        8
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 15.5,
+      "location": [
+        -37.5,
+        -8
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 23,
+      "location": [
+        -41,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    }
+  ],
+  "height": 120,
+  "hullId": "deus_cayenne",
+  "hullName": "Cayenne",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 50.5,
+  "spriteName": "graphics/ships/siracha.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -1.5,
+        23
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -1.5,
+        -23
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        16,
+        9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        16,
+        -9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 100
+}
