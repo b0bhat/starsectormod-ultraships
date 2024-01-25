@@ -4,5 +4,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Users\\ryanw\\Games\\Starsector\\starsector-core\\starfarer.api.jar"
-    ]
+    ],
+    "java.project.exportJar.targetPath": "${workspaceFolder}/jar/${workspaceFolderBasename}.jar"
 }

@@ -1,4 +1,4 @@
-package scripts.shipsystems.ai;
+package data.shipsystems.scripts.ai;
 
 import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
