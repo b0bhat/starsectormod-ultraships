@@ -4,5 +4,6 @@
     "author": "aeori",
     "version": "1.0",
     "description": "Adds some ULTRA ships",
-    "gameVersion": "0.96a"
+    "gameVersion": "0.96a",
+	"jars":["jar/1_ultraships.jar"],
 }

@@ -1,11 +1,10 @@
-package data.shipsystems.scripts;
+package scripts.shipsystems;
 
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
-import com.fs.starfarer.api.combat.ShipAPI;
 
-public class RotationalMassCondenserStats extends BaseShipSystemScript {
+public class deus_RotationalMassCondenserStats extends BaseShipSystemScript {
 
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 		if (state == ShipSystemStatsScript.State.OUT) {

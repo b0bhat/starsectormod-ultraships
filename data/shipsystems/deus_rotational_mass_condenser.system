@@ -4,7 +4,7 @@
 	"aiType":"CUSTOM",
     "aiScript":"data.shipsystems.scripts.ai.deus_sledgehammer_ram",
 	
-	"statsScript":"data.shipsystems.scripts.RotationalMassCondenserStats",
+	"statsScript":"scripts.shipsystems.deus_RotationalMassCondenserStats",
 	
 	"engineGlowColor":[115,230,60,255],
 	#"engineGlowContrailColor":[100,165,255,25],
