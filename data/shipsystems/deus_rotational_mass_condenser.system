@@ -2,7 +2,7 @@
 	"id":"deus_rotational_mass_condenser",
 	"type":"ENGINE_MOD",
 	"aiType":"CUSTOM",
-    "aiScript":"data.shipsystems.scripts.ai.deus_sledgehammer_ram",
+    "aiScript":"data.shipsystems.scripts.ai.deus_sledgehammer_ram_ai",
 	
 	"statsScript":"scripts.shipsystems.deus_RotationalMassCondenserStats",
 	

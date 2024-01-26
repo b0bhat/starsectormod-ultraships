@@ -5,8 +5,8 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 
 public class deus_StrikeBombardmentStats extends BaseShipSystemScript {
 
-	public static final float DAMAGE_BONUS_PERCENT = 100f;
-	public static final float RANGE_MALUS_PERCENT = 70f;
+	public static final float DAMAGE_BONUS_PERCENT = 500f;
+	public static final float RANGE_MALUS_PERCENT = 40f;
 	public static final float GUIDANCE_BONUS = 20f;
 	
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {

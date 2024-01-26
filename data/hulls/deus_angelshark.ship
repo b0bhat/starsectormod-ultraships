@@ -18,8 +18,8 @@
     17
   ],
   "builtInWeapons": {
-    "WS0001": "gazerpod",
-    "WS0002": "gazerpod"
+    "WS0001": "harpoonpod",
+    "WS0002": "harpoonpod"
   },
   "builtInWings": [],
   "center": [
@@ -94,7 +94,7 @@
         -14,
         19.5
       ],
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "size": "MEDIUM",
       "type": "BUILT_IN"
     },
@@ -106,7 +106,7 @@
         -14,
         -19.5
       ],
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "size": "MEDIUM",
       "type": "BUILT_IN"
     },
@@ -132,7 +132,7 @@
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "MISSILE"
+      "type": "HYBRID"
     },
     {
       "angle": -45,
@@ -144,7 +144,7 @@
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "MISSILE"
+      "type": "HYBRID"
     }
   ],
   "width": 150

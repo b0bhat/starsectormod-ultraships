@@ -3,7 +3,8 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "c:\\Users\\ryanw\\Games\\Starsector\\starsector-core\\starfarer.api.jar"
+        "c:\\Users\\ryanw\\Games\\Starsector\\starsector-core\\starfarer.api.jar",
+        "c:\\Users\\ryanw\\Games\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar"
     ],
     "java.project.exportJar.targetPath": "${workspaceFolder}/jar/${workspaceFolderBasename}.jar"
 }

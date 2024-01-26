@@ -2,23 +2,28 @@
 	"id":"deus_strike_bombardment",
 	"type":"STAT_MOD",
 	#"aiType":"HIGH_ENERGY_FOCUS",
-	"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.deus_strike_bombardment_ai",
 	
 	"statsScript":"scripts.shipsystems.deus_StrikeBombardmentStats",
 	
-	"weaponGlowColor":[255,0,255,255],
+	"weaponGlowColor":[150,100,250,255],
 	"weaponTypes":[MISSILE],
-	
-	#"useSound":"beam_heavy_intro",
-	#"outOfUsesSound":"gun_out_of_ammo",
 
-	#"activatingShieldsCancels":true,
+	#"jitterUnderColor":[250,150,110,120],
+	#"jitterUnderCopies":3,
+	#"jitterUnderMinRange":0,
+	#"jitterUnderRange":5,
+	#"jitterUnderRangeRadiusFraction":0,
 	
+	"jitterColor":[150,100,250,255],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":3,
+	"jitterRangeRadiusFraction":0,
 	
 	"useSound":"system_high_energy_focus_activate",
 	"deactivateSound":"system_high_energy_focus_deactivate",
-	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
-	# Re-enable for testing.
 	
 	"outOfUsesSound":"gun_out_of_ammo",
 	"loopSound":"system_high_energy_focus_loop",	

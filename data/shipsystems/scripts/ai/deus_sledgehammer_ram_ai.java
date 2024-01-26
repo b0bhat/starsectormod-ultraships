@@ -14,7 +14,7 @@ import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-public class deus_sledgehammer_ram implements ShipSystemAIScript {
+public class deus_sledgehammer_ram_ai implements ShipSystemAIScript {
     private ShipAPI ship;
     private CombatEngineAPI engine;
     private ShipwideAIFlags flags;
