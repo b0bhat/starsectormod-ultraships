@@ -18,8 +18,8 @@
     17
   ],
   "builtInWeapons": {
-    "WS0001": "harpoonpod",
-    "WS0002": "harpoonpod"
+    "WS0001": "deus_morningstar",
+    "WS0002": "deus_morningstar"
   },
   "builtInWings": [],
   "center": [

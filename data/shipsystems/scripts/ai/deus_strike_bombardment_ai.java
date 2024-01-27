@@ -49,9 +49,9 @@ public class deus_strike_bombardment_ai implements ShipSystemAIScript {
             //    ship.useSystem();
             // }
 
-            if (MathUtils.isWithinRange(ship, target, 500f) && ship.getSystem().getState() == ShipSystemAPI.SystemState.IDLE && ship.getFluxLevel() <= MathUtils.getRandomNumberInRange(0.5f, 0.6f)) { //need to check flux
+            if (MathUtils.isWithinRange(ship, target, 600f) && ship.getSystem().getState() == ShipSystemAPI.SystemState.IDLE && ship.getFluxLevel() <= MathUtils.getRandomNumberInRange(0.5f, 0.6f)) { //need to check flux
                ship.useSystem();
-               flags.setFlag(AIFlags.DO_NOT_BACK_OFF, 4f);
+               flags.setFlag(AIFlags.DO_NOT_BACK_OFF, 2f);
                return;
             }
             
