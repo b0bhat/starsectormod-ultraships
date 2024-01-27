@@ -1,17 +1,19 @@
-name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number,,,,,,,
 #Coriolis EMP Drone,defo_empdrone,,Fabrique Orbitale,emp_for_drone,,150,50,500,,150,15,,200,250,200,140,240,10,FRONT,,300,0,0.5,,,,,,,,,,,,,,,,,,,,,,,5000
 #Coriolis Drone,defo_coriolis,,Fabrique Orbitale,,,150,50,500,,150,15,,200,250,200,140,240,10,FRONT,,150,0,0.5,,,,,,,,,,,,,,,,,,,,,,,5000
 #Coriolis PD Drone,defo_pddrone,,Fabrique Orbitale,,,150,50,500,,150,15,,200,250,200,200,240,10,FRONT,,150,0,0.5,,,,,,,,,,,,,,,,,,,,,,,5000
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Kite,kite,Shuttle,Low Tech,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,base_bp,,0.75,2,2,217
 #Parallax,defo_parallax,Heavy Frigate,Fabrique Orbitale,entropyamplifier,6,1600,60,4600,8000,400,40,,220,80,60,30,45,300,FRONT,,360,0.3,0.5,,,10,15,80,80,0.5,160,11,50000,3,25,360,0.25,8,12,,"rare_bp, scavengers, tritachyon",,0.7,4,6,310.4
-Cayenne,deus_cayenne,Elite Fighter,High Tech,acausaldisruptor,14,3000,450,5000,0,300,25,,250,550,120,100,60,200,OMNI,,100,0.4,0.7,,,5,5,5,20,1,20,12,80000,5,25,180,0.25,14,12,,,,0.9,4,6,488.1
-Ludd's Sledgehammer,deus_sledgehammer,Ram Frigate,Luddic Path,deus_rotational_mass_condenser,12,2500,600,800,0,120,15,,150,100,20,50,50,500,NONE,,,,,,,25,30,10,80,4,20,15,60000,5,20,90,0.25,12,15,,,,0.8,2,2,488.2
-Ludd's Tip,deus_sledgehammer_ram,Ram,Luddic Path,,1,4000,1000,0,0,0,0,,0,0,0,0,0,8000,NONE,,,,,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,1,2,488.25
-Angelshark,deus_angelshark,Missile Destroyer,Department of Frontier Security,deus_strike_bombardment,16,5000,650,6500,0,300,60,,125,120,80,45,75,550,FRONT,,80,0.35,0.7,,,35,50,30,50,2,25,10,100000,5,16,270,0.25,20,20,,,,0.5,2,3,488.3
-Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16,4500,600,7000,0,450,60,1,130,140,100,45,80,550,FRONT,,80,0.3,0.68,,,0,0,30,50,2,25,10,120000,5,16,210,0.25,25,15,,,,0.5,2,3,488.4
+Cayenne,deus_cayenne,Elite Fighter,High Tech,acausaldisruptor,14,3000,450,5000,0,300,25,,250,550,120,100,60,200,OMNI,,100,0.4,0.7,,,5,5,5,20,1,20,12,80000,5,25,180,0.25,14,12,,,,0.9,4,6,488.1,,,,,,,
+Ludd's Sledgehammer,deus_sledgehammer,Ram Frigate,Luddic Path,deus_rotational_mass_condenser,12,2500,600,800,0,120,15,,150,100,20,50,50,500,NONE,,,,,,,25,30,10,80,4,20,15,60000,5,20,90,0.25,12,15,SHIP_WITH_MODULES,,,0.8,2,2,488.2,,,,,,,
+Ludd's Tip,deus_sledgehammer_ram,Ram,Luddic Path,,1,4000,1000,0,0,0,0,,0,0,0,0,0,8000,NONE,,,,,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,1,2,488.25,,,,,,,
+Angelshark,deus_angelshark,Missile Destroyer,Department of Frontier Security,deus_strike_bombardment,16,5000,650,6500,0,300,60,,125,120,80,45,75,550,FRONT,,80,0.35,0.7,,,35,50,30,50,2,25,10,100000,5,16,270,0.25,20,20,,,,0.5,2,3,488.3,,,,,,,
+Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16,4500,600,7000,0,450,60,1,130,140,100,45,80,550,FRONT,,80,0.3,0.68,,,0,0,30,50,2,25,10,120000,5,16,210,0.25,25,15,,,,0.5,2,3,488.4,,,,,,,
+Hound,deus_hound,Combat Freighter,Low Tech,flarelauncher,3,2000,4000,750,1250,100,38,,180,175,100,90,120,200,NONE,,0,0,0,,,10,40,75,30,1,30,10,7500,5,10,240,0.25,3,3,SHIP_WITH_MODULES,"base_bp, ind",,0.5,2,3,,,,,,,,
+Colossus,deus_colossus,Heavy Freighter,Low Tech,flarelauncher,7,6000,300,2750,2000,100,55,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,900,120,4,30,7,40000,3,20,480,0.25,6,6,"UNBOARDABLE, HIDE_IN_CODEX",,,1,8,10,,,,,,,,
 #Hammerhead,hammerhead,Destroyer,Midline,ammofeed,10,5000,500,4200,4167,250,95,,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,10,10,,midline_bp,,0.5,2,3,300
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Syzygy,defo_syzygy,Light Frigate,Fabrique Orbitale,maneuveringjets,4,1200,50,2500,8000,150,42,,180,150,80,45,85,120,FRONT,,360,0.3,0.5,,,5,15,50,60,0.5,120,11,25000,4,20,320,0.25,6,6,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.1
 #Syzygy EWS,defo_syzygyews,Light Frigate,Fabrique Orbitale,acausaldisruptor,4,1200,50,2000,8000,120,15,1,180,150,80,45,85,120,FRONT,,360,0.3,0.5,,,5,15,20,50,0.5,100,11,32000,3,25,320,0.25,6,6,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.1
 #Syzygy CAS,defo_syzygycas,CAS Frigate,Fabrique Orbitale,maneuveringjets,4,900,30,500,8000,100,15,1,120,80,50,25,50,150,OMNI,,240,0.6,0.7,,,10,100,10,50,0.5,100,11,28000,4,20,120,0.25,4,12,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.2
@@ -25,11 +27,11 @@ Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16
 #Isochrone,defo_isochrone1,Modular Cruiser,Fabrique Orbitale,plasmajets,18,5000,80,3000,8000,250,60,,180,220,160,20,30,1500,FRONT,,90,0.4,0.6,,,55,90,180,150,1,150,9,180000,3,30,220,0.25,22,30,SHIP_WITH_MODULES,"rare_bp, scavengers, tritachyon",,0.8,6,9,311.2
 #,defo_isochrone2,Weapon Module,Fabrique Orbitale,highenergyfocus,1,4000,150,4000,8000,350,65,,0,0,0,0,0,800,OMNI,,90,0.4,0.6,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,4,6,2000.1
 #,defo_isochrone3,Hangar Module,Fabrique Orbitale,targetingfeed,1,3000,120,2500,8000,150,45,3,0,0,0,0,0,600,OMNI,,90,0.4,0.6,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,3,5,2000.2
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Kite,kite,Shuttle,Low Tech,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,base_bp,,0.75,2,2,217
 #Omen,omen,Frigate,High Tech,emp,6,750,125,2500,2500,200,40,,155,220,175,120,360,100,OMNI,,360,0.3,0.6,,,10,20,30,20,1,20,10,20000,10,20,180,0.25,5,5,,rare_bp,,0.5,2,2,205
 #Tempest,tempest,Frigate,High Tech,highenergyfocus,8,1250,200,2500,2813,225,50,1,180,200,175,90,270,200,OMNI,,120,0.2,0.8,,,15,25,30,20,1,20,11,36000,10,20,180,0.25,8,8,,rare_bp,0.75,0.5,2,2,206
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Hammerhead,hammerhead,Destroyer,Midline,ammofeed,10,5000,500,4200,4167,250,95,,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,10,10,,midline_bp,,0.5,2,3,300
 #Buffalo,buffalo,Freighter,High Tech,flarelauncher_active,5,3000,125,1500,1167,70,28,,50,25,20,15,7,400,OMNI,,120,0.5,1,,,10,20,300,80,2,40,8,20000,5,20,240,0.25,3,3,"CIVILIAN, FREIGHTER",base_bp,,0.6,2,3,304
 #Medusa,medusa,Destroyer,High Tech,displacer,11,3000,300,6000,6667,400,95,,100,90,60,40,100,300,OMNI,,120,0.3,0.6,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,12,12,,rare_bp,,0.7,2,3,309
@@ -37,7 +39,7 @@ Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16
 #Shrike,shrike,Light Destroyer,High Tech,microburn,9,2800,250,5400,5833,350,80,,100,100,80,35,80,250,OMNI,,150,0.3,0.7,,,20,40,40,60,2,30,10,20000,5,15,300,0.25,8,8,,hightech_bp,,0.7,2,3,319
 #Falcon,falcon,Light Cruiser,Midline,maneuveringjets,12,6000,750,7000,7000,350,125,,75,50,30,20,25,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,15,15,,midline_bp,,0.5,2,3,400
 #Apogee,apogee,Cruiser,High Tech,flarelauncher_active,16,9000,750,12000,14000,700,140,,60,40,30,20,25,2000,FRONT,,360,0.6,0.7,,,150,450,400,200,2,100,8,140000,3,15,420,0.25,18,18,,hightech_bp,,0.6,2,3,403
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Aurora,aurora,Cruiser,High Tech,plasmajets,17,8000,800,11000,16000,800,165,,80,50,25,25,25,1800,OMNI,,180,0.5,0.8,,,75,200,150,90,3,30,8,200000,4,20,420,0.25,30,30,,rare_bp,,0.6,2,3,405
 #Doom,doom,Phase Cruiser,High Tech,mine_strike,22,7000,1250,10000,18000,900,145,,75,55,40,20,25,1200,PHASE,phasecloak,,,,0.05,0.05,50,100,120,150,3,50,8,250000,4,20,420,0.25,35,35,,rare_bp,,0.5,2,3,406
 #Onslaught,onslaught,Battleship,Low Tech,burndrive,28,20000,1750,17000,15000,600,360,,25,10,10,4,4,3500,FRONT,,180,0.4,1,,,750,1500,300,400,15,27,7,350000,3,12,720,0.25,40,40,,rare_bp,,0.4,2,4,500
@@ -45,4 +47,4 @@ Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16
 #Conquest,conquest,Battlecruiser,Midline,maneuveringjets,24,12000,1200,20000,30000,1200,315,,45,20,15,6,4,2500,OMNI,,90,0.4,1.4,,,400,500,300,300,10,30,8,300000,3,15,600,0.25,40,40,,rare_bp,,0.5,2,4,503
 #Paragon,paragon,Battleship,High Tech,fortressshield,30,18000,1500,25000,31250,1250,370,,30,15,10,5,5,3500,OMNI,,360,0.6,0.6,,,400,1000,300,300,10,30,7,500000,4,20,720,0.25,60,60,,rare_bp,,0.6,2,4,504
 #Odyssey,odyssey,Battlecruiser,High Tech,microburn,25,10000,1000,15000,25000,1000,280,2,70,50,40,8,12,2000,OMNI,,180,0.25,1,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,45,45,,rare_bp,,0.6,2,4,505
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
