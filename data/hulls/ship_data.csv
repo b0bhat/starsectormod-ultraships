@@ -10,8 +10,6 @@ Ludd's Sledgehammer,deus_sledgehammer,Ram Frigate,Luddic Path,deus_rotational_ma
 Ludd's Tip,deus_sledgehammer_ram,Ram,Luddic Path,,1,4000,1000,0,0,0,0,,0,0,0,0,0,8000,NONE,,,,,,,0,0,0,0,0,0,,,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,1,2,488.25,,,,,,,
 Angelshark,deus_angelshark,Missile Destroyer,Department of Frontier Security,deus_strike_bombardment,16,5000,650,6500,0,300,60,,125,120,80,45,75,550,FRONT,,80,0.35,0.7,,,35,50,30,50,2,25,10,100000,5,16,270,0.25,20,20,,,,0.5,2,3,488.3,,,,,,,
 Demonshark,deus_demonshark,Missile Destroyer,Remnant?,deus_strike_bombardment,16,4500,600,7000,0,450,60,1,130,140,100,45,80,550,FRONT,,80,0.3,0.68,,,0,0,30,50,2,25,10,120000,5,16,210,0.25,25,15,,,,0.5,2,3,488.4,,,,,,,
-Hound,deus_hound,Combat Freighter,Low Tech,flarelauncher,3,2000,4000,750,1250,100,38,,180,175,100,90,120,200,NONE,,0,0,0,,,10,40,75,30,1,30,10,7500,5,10,240,0.25,3,3,SHIP_WITH_MODULES,"base_bp, ind",,0.5,2,3,,,,,,,,
-Colossus,deus_colossus,Heavy Freighter,Low Tech,flarelauncher,7,6000,300,2750,2000,100,55,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,900,120,4,30,7,40000,3,20,480,0.25,6,6,"UNBOARDABLE, HIDE_IN_CODEX",,,1,8,10,,,,,,,,
 #Hammerhead,hammerhead,Destroyer,Midline,ammofeed,10,5000,500,4200,4167,250,95,,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,10,10,,midline_bp,,0.5,2,3,300
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Syzygy,defo_syzygy,Light Frigate,Fabrique Orbitale,maneuveringjets,4,1200,50,2500,8000,150,42,,180,150,80,45,85,120,FRONT,,360,0.3,0.5,,,5,15,50,60,0.5,120,11,25000,4,20,320,0.25,6,6,,"rare_bp, scavengers, tritachyon",,0.7,3,5,310.1
