@@ -17,6 +17,9 @@
     -68.5,
     23
   ],
+  "builtInWeapons": {
+    "WS0001": "deus_nuclear_scattergun"
+  },
   "builtInWings": [],
   "center": [
     75,
@@ -26,25 +29,47 @@
   "engineSlots": [
     {
       "angle": 180,
-      "contrailSize": 11,
-      "length": 32,
+      "contrailSize": 12,
+      "length": 35,
       "location": [
         -69,
         11
       ],
-      "style": "HIGH_TECH",
-      "width": 11
+      "style": "NEURALSEC",
+      "width": 12
     },
     {
       "angle": -180,
-      "contrailSize": 11,
-      "length": 32,
+      "contrailSize": 12,
+      "length": 35,
       "location": [
         -69,
         -11
       ],
-      "style": "HIGH_TECH",
-      "width": 11
+      "style": "NEURALSEC",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 17,
+      "location": [
+        -68.5,
+        -27
+      ],
+      "style": "NEURALSEC",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 17,
+      "location": [
+        -68.5,
+        27
+      ],
+      "style": "NEURALSEC",
+      "width": 5
     }
   ],
   "height": 180,
@@ -56,16 +81,16 @@
     -0
   ],
   "shieldRadius": 93.5,
-  "spriteName": "graphics/ships/moralia.png",
+  "spriteName": "graphics/ships/moroi.png",
   "style": "HIGH_TECH",
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 180,
+      "angle": 0,
       "arc": 0,
       "id": "WS0001",
       "locations": [
-        -72,
+        66,
         -0
       ],
       "mount": "HIDDEN",
@@ -73,28 +98,28 @@
       "type": "BUILT_IN"
     },
     {
-      "angle": 180,
-      "arc": 0,
+      "angle": 45,
+      "arc": 120,
       "id": "WS0002",
       "locations": [
-        -68,
-        27.5
+        -29,
+        21.5
       ],
-      "mount": "HIDDEN",
-      "size": "MEDIUM",
-      "type": "BUILT_IN"
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
     },
     {
-      "angle": -180,
-      "arc": 0,
+      "angle": -45,
+      "arc": 120,
       "id": "WS0003",
       "locations": [
-        -68,
-        -27.5
+        -29,
+        -21.5
       ],
-      "mount": "HIDDEN",
-      "size": "MEDIUM",
-      "type": "BUILT_IN"
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
     }
   ],
   "width": 150

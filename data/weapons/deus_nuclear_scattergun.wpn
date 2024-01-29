@@ -1,0 +1,30 @@
+{
+  "id": "deus_nuclear_scattergun",
+  "specClass": "projectile",
+  "projectileSpecId": "deus_nuclear_scattergun_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius":0,
+  "barrelMode": "LINKED",
+  "hardpointAngleOffsets": [0,0],
+  "turretAngleOffsets": [0,0],
+  "hardpointOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+	"turretOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  "visualRecoil":0, # TODO recoil with gun sprite
+  "separateRecoilForLinkedBarrels":"TRUE",
+  "hardpointSprite": "",
+  "turretSprite": "",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 3,
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "particleDuration": 0.2,
+    "particleCount": 3,
+    "particleColor": [243, 206, 119,150]
+  },
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundTwo":"antimatter_blaster_fire",
+}
