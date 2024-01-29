@@ -1,0 +1,101 @@
+{
+  "bounds": [
+    -68.5,
+    -23,
+    -38,
+    -50.5,
+    -13,
+    -50,
+    65.5,
+    -14.5,
+    65.5,
+    14.5,
+    -13,
+    50,
+    -38,
+    50.5,
+    -68.5,
+    23
+  ],
+  "builtInWings": [],
+  "center": [
+    75,
+    90
+  ],
+  "collisionRadius": 105.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 32,
+      "location": [
+        -69,
+        11
+      ],
+      "style": "HIGH_TECH",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 32,
+      "location": [
+        -69,
+        -11
+      ],
+      "style": "HIGH_TECH",
+      "width": 11
+    }
+  ],
+  "height": 180,
+  "hullId": "deus_moroi",
+  "hullName": "Moroi",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    -2,
+    -0
+  ],
+  "shieldRadius": 93.5,
+  "spriteName": "graphics/ships/moralia.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -72,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -68,
+        27.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -68,
+        -27.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 150
+}
