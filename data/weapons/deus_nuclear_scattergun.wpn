@@ -22,8 +22,8 @@
     "particleSizeMin": 10,
     "particleSizeRange": 15,
     "particleDuration": 0.2,
-    "particleCount": 3,
-    "particleColor": [243, 206, 119,150]
+    "particleCount": 5,
+    "particleColor": [143, 206, 119,150]
   },
   "autocharge": true,
   "textureType": ROUGH,

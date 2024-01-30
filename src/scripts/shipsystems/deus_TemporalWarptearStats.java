@@ -15,18 +15,12 @@ import org.lazywizard.lazylib.FastTrig;
 import org.lwjgl.util.vector.Vector2f;
 import org.magiclib.util.MagicRender;
 
-public class deus_WarpstreamStats extends BaseShipSystemScript {
+public class deus_TemporalWarptearStats extends BaseShipSystemScript {
 	private static final Color AFTERIMAGE_COLOR = new Color(174, 10, 138, 100);
 	private static final Color JITTER_COLOR = new Color(225, 65, 246, 60);
 	private static final Color JITTER_UNDER_COLOR = new Color(110, 11, 239, 120);
 	private static final Color ENGINE_COLOR = new Color(118, 7, 146, 155);
 	private static final Object KEY_JITTER = new Object();
-	private static final float TIME_MULT = 3.0F;
-	private static final float BURST_TIME_MULT = 4.0F;
-	private static final float FLUX_REDUC_PERCENT = 10.0F;
-	private static final float FLUX_REDUC_PERCENT_BURST = 20.0F;
-	private static final float HARD_FLUX_DIS = 20.0F;
-	private static final float HARD_FLUX_DIS_BURST = 40.0F;
 	private final IntervalUtil interval = new IntervalUtil(0.6F, 0.6F);
 
    	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
@@ -38,13 +32,9 @@ public class deus_WarpstreamStats extends BaseShipSystemScript {
 			player = ship == Global.getCombatEngine().getPlayerShip();
 			float jitterRangeBonus;
 			stats.getTimeMult().modifyMult(id, 4.0F);
-			stats.getBallisticWeaponFluxCostMod().modifyPercent(id, -20.0F);
-			stats.getEnergyWeaponFluxCostMod().modifyPercent(id, -20.0F);
-			stats.getBeamWeaponFluxCostMult().modifyPercent(id, -20.0F);
 			stats.getHardFluxDissipationFraction().modifyFlat(id, 0.39999998F);
 			if (player) {
 				engine.getTimeMult().modifyMult(id, 0.25F);
-				engine.maintainStatusForPlayerShip("bbplus_ChronoDriveStats_TOOLTIP_TWO", "graphics/icons/hullsys/bbplus_clockup.png", "Hyper Clock Up", "-20% Weapon flux cost", false);
 			} else {
 				engine.getTimeMult().unmodify(id);
 			}

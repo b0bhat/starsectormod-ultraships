@@ -1,23 +1,20 @@
 {
-	"id":"deus_warpstream",
+	"id":"deus_temporal_warptear",
 	"type":"STAT_MOD",
 	"aiType":"TEMPORAL_SHELL",
-	"statsScript":"scripts.shipsystems.deus_WarpstreamStats",
+	"statsScript":"scripts.shipsystems.deus_TemporalWarptearStats",
 	
-	"jitterUnderColor":[50,255,100,45],
+	"jitterUnderColor":[118, 7, 146,45],
 	"jitterUnderCopies":10,
 	"jitterUnderMinRange":2,
-	"jitterUnderRange":8,
+	"jitterUnderRange":20,
 	"jitterUnderRangeRadiusFraction":0,
 	
-	"jitterColor":[50,255,100,25],
-	"jitterCopies":2,
+	"jitterColor":[244, 26, 230,25],
+	"jitterCopies":5,
 	"jitterMinRange":0,
-	"jitterRange":5,
+	"jitterRange":15,
 	"jitterRangeRadiusFraction":0,
-	
-	"weaponGlowColor":[30,245,80,10],
-	"weaponTypes":[BALLISTIC,ENERGY],
 	
 	"useSound":"system_temporalshell",
 	"loopSound":"system_temporalshell_loop",
