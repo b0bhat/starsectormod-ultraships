@@ -1,6 +1,7 @@
 {
   "id": "deus_nuclear_scattergun",
   "specClass": "projectile",
+  "onHitEffect":"scripts.weapons.deus_NuclearScattergunEffect",
   "projectileSpecId": "deus_nuclear_scattergun_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
@@ -8,8 +9,8 @@
   "barrelMode": "LINKED",
   "hardpointAngleOffsets": [0,0],
   "turretAngleOffsets": [0,0],
-  "hardpointOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-	"turretOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  "hardpointOffsets":[0,0,0,0,0,0],
+	"turretOffsets":[0,0,0,0,0,0],
   "visualRecoil":0, # TODO recoil with gun sprite
   "separateRecoilForLinkedBarrels":"TRUE",
   "hardpointSprite": "",

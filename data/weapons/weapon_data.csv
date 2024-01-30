@@ -2,7 +2,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 Ramming Targeter,deus_ram_laser,1,,0,50,0,,,0,20,0,,,,ENERGY,,0,0.1,0.1,,,,,,,2400,,,,,,,"STRIKE, SYSTEM",,,Luddic Path,,Strike,,,,,,,,,,488.1
 Rapid Bolter,deus_rapid_bolter,1,,0,600,,10,,0,20,0,80,30,20,ENERGY,12,,0.01,0.01,1,,0,3,0.5,5,,1500,,,,,,SYSTEM,,,,,General,,,,,,,,,,488.2
 Morningstar VRM,deus_morningstar,1,,0,1500,,250,,500,0,0,20,2,5,FRAGMENTATION,20,,0,0.5,5,0.1,0,0,0,,,1200,200,4,200,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,Frontier Special Operations,,Anti Armor,Fast,Excellent,,,,,,,,488.3
-Nuclear Scattergun,deus_nuclear_scattergun,1,,0,600,,45,50,1500,0,0,,,,HIGH_EXPLOSIVE,50,,0,0.12,1,,45,45,0,0,,2000,,,,,,"STRIKE, SYSTEM, PD_ALSO",,,,,Anti Armor,,,,,Explosive burst is extremely potent at close range.,,,,,488.4
+Nuclear Scattergun,deus_nuclear_scattergun,1,,0,600,,100,100,1500,0,0,,,,HIGH_EXPLOSIVE,120,,0,0.3,1,,45,45,0,0,,2000,,,,,,"STRIKE, SYSTEM, PD_ALSO",,,,,Anti Armor,,,,,Explosive burst is extremely potent at close range.,,,,,488.4
 #Devastator Cannon
 #Light Dual Machine Gun,lightdualmg,2,,400,300,,25,,1,50,5,,,,KINETIC,3,,0,0.2,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd7, kinetic4, SR, lowtech_bp, merc, ind",,,,Point Defense,,,,,,,,,,0.7
 #Light Mortar,lightmortar,0,,75,600,,75,,4,30,2,,,,HIGH_EXPLOSIVE,50,,0,1,1,,0,15,3,10,,500,,,10,,,,"he6, base_bp, ind",,,,Anti Armor,,,,,,,,,,0.75

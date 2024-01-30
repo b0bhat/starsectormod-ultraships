@@ -4,7 +4,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Users\\ryanw\\Games\\Starsector\\starsector-core\\starfarer.api.jar",
-        "c:\\Users\\ryanw\\Games\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar"
+        "c:\\Users\\ryanw\\Games\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar",
+        "c:\\Users\\ryanw\\Games\\Starsector\\starsector-core\\lwjgl_util.jar",
+        "c:\\Users\\ryanw\\Games\\Starsector\\mods\\MagicLib\\jars\\MagicLib.jar"
     ],
     "java.project.exportJar.targetPath": "${workspaceFolder}/jar/${workspaceFolderBasename}.jar"
 }

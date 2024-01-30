@@ -20,7 +20,9 @@
   "builtInWeapons": {
     "WS0001": "deus_nuclear_scattergun"
   },
-  "builtInWings": [],
+  "builtInWings": [
+    "deus_evicro"
+  ],
   "center": [
     75,
     90
@@ -120,6 +122,18 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -44,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
     }
   ],
   "width": 150
